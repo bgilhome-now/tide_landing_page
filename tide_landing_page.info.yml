@@ -22,6 +22,7 @@ dependencies:
   - field_group:field_group
   - maxlength:maxlength
   - paragraphs:paragraphs
+  - paragraphs:paragraphs_library
   - smart_trim:smart_trim
   - tablefield:tablefield
 config_devel:
