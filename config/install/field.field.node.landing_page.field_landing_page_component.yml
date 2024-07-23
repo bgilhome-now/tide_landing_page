@@ -15,6 +15,7 @@ dependencies:
     - paragraphs.paragraphs_type.complex_image
     - paragraphs.paragraphs_type.data_table
     - paragraphs.paragraphs_type.form_embed_openforms
+    - paragraphs.paragraphs_type.from_library
     - paragraphs.paragraphs_type.latest_events
     - paragraphs.paragraphs_type.media_gallery
     - paragraphs.paragraphs_type.navigation_card
@@ -55,6 +56,7 @@ settings:
       news_listing: news_listing
       data_table: data_table
       statistics_grid: statistics_grid
+      from_library: from_library
     target_bundles_drag_drop:
       banner:
         weight: -33
@@ -125,6 +127,9 @@ settings:
       card_carousel:
         enabled: true
         weight: -21
+      from_library:
+        enabled: true
+        weight: 200
       contact_us:
         weight: 34
         enabled: false
