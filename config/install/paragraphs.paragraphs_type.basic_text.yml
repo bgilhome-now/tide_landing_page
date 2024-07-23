@@ -1,6 +1,12 @@
 langcode: en
 status: true
 dependencies: {  }
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
 id: basic_text
 label: 'Basic text'
 icon_uuid: b0f69b48-eb85-4535-87a5-3f75058b0212
