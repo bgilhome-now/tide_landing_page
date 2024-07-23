@@ -1,6 +1,5 @@
 langcode: en
 status: true
-dependencies: {  }
 dependencies:
   module:
     - paragraphs_library
